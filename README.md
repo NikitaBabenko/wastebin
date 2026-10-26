@@ -1,5 +1,18 @@
 # <img width="24px" height="24px" style="position: relative; top: 2px;" src="assets/favicon.png"/> wastebin
 
+> **VibeNest pilot — not deployment-ready (26 October 2026).** This fork preserves
+> upstream source and records a static compatibility review. The current revision
+> was rejected for this pilot: a reverse proxy alone does not resolve the reviewed
+> ownership and encrypted-metadata issues. No VibeNest deployment or Free-tier test
+> has been performed. Read [the review and prerequisites](VIBENEST.md).
+>
+> The proposed button is kept inactive below until a safe runtime is reviewed and
+> accepted. It is not a working one-click deployment claim.
+
+```markdown
+[![Deploy to VibeNest](https://vibenest.net/deploy-to-vibenest.svg)](https://vibenest.net/deploy?repo=https://github.com/NikitaBabenko/wastebin)
+```
+
 [![Rust](https://github.com/matze/wastebin/actions/workflows/rust.yml/badge.svg)](https://github.com/matze/wastebin/actions/workflows/rust.yml)
 
 ## <strong><a href="https://war.ukraine.ua/support-ukraine/">support 🇺🇦</a> • <a href="https://commission.europa.eu/strategy-and-policy/state-union/state-union-2022/defending-eu-values">defend 🇪🇺</a></strong>
